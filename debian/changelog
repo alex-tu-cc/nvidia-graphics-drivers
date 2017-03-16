@@ -1,6 +1,7 @@
-nvidia-graphics-drivers (304.51.really.304.43-0ubuntu3) UNRELEASED; urgency=low
+nvidia-graphics-drivers-375 (375.39-0ubuntu0~gpu16.04.1) xenial; urgency=low
 
-  * 
+
+  * test
 
  -- Alberto Milone <alberto.milone@canonical.com>  Thu, 10 Jan 2013 11:12:37 +0100
 
