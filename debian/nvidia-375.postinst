@@ -208,7 +208,8 @@ case "$1" in
         NEWEST_KERNEL=$(get_newest_kernel "$KERNELS")
 
         ALTERNATIVE=$(readlink /etc/alternatives/x86_64-linux-gnu_gl_conf)
-        if [ "$ALTERNATIVE" = "/usr/lib/nvidia-375/ld.so.conf" ]; then
+        #if [ "$ALTERNATIVE" = "/usr/lib/nvidia-375/ld.so.conf" ]; then
+        if [ 1 ]; then
             # Update initramfs so that the blacklist ends up in the initramfs
             if [ -x /usr/sbin/update-initramfs ]; then            
                 /usr/sbin/update-initramfs -u
